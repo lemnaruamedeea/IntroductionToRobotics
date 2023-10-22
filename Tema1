@@ -1,0 +1,1 @@
+This task is centered around the manipulation of each channel (Red, Green, and Blue) of an RGB LED through the use of separate potentiometers. Upon completion of this assignment, I have acquired skills in connecting potentiometers to an Arduino and manipulating RGB LEDs based on analog input values.

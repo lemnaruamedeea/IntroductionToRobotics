@@ -27,6 +27,7 @@ https://youtu.be/0VN2qUHWAPw?si=XpcYRdrIy6sqkWz8
 ## Homework 2 - 7 segment display drawing
 I used the joystick to control the position of the segment and "draw" on the display. I wanted the movement between segments to feel natural, so they should transition smoothly from the current position to neighboring positions without passing through any "walls."
 The initial position is on the DP. The current position will always blink, regardless of whether the segment is on or off. I use the joystick to move from one position to neighboring ones (as indicated in the table for corresponding movements). A short press of the button will toggle the segment state between ON and OFF. If I long-press the button, it will reset the entire display by turning off all the segments and moving the current position to the decimal point.
+
 ![Table of corresponding movements](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework3/Table_of_corresponding_movements.png?raw=true)
 
 Components used:

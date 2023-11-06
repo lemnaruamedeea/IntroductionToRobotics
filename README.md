@@ -33,8 +33,11 @@ The initial position is on the DP. The current position will always blink, regar
 Components used:
 
 -1  7-segment  display, 
+
 -1  joystick, 
+
 -8 resistors,
+
 -lots of wires
 
 ![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework3/SetupImg1.jpeg?raw=true)

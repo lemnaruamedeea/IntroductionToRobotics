@@ -27,7 +27,7 @@ const int down = 1;
 const int left = 2;
 const int right = 3;
 
-const long longPress = 800;
+const long longPress = 2000;
 const long shortPress = 500;
 const long blinkInterval = 300;
 

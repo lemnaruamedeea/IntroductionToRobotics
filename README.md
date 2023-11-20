@@ -65,3 +65,44 @@ Components used:
 ![SetupImg](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework4/SetupImg.jpeg?raw=true)
 
 https://youtube.com/shorts/Ss_1BUEqMBo?si=jCl7402cfeI99Ji6
+
+## Homework 5 - ”Smart Environment Monitor and Logger”
+I will create a "Smart Environment Monitor and Logger" with Arduino. I'll use different sensors to collect environmental information, save it into EEPROM memory, and offer visual feedback using an RGB LED. Additionally, I'll enable user interaction through a Serial Menu. My main goal is to integrate sensor data, manage memory, establish Serial Communication, and ultimately create a functional menu system.
+
+Components used:
+-Arduino Uno Board
+
+-Ultrasonic Sensor (HC-SR04)
+
+-LDR (Light-Dependent Resistor) aka Photocell aka Photoresistor aka LightSensor
+
+-RGB LED
+
+-4 ResistorsBreadboard
+
+-connecting wires (lots of them)
+
+Menu Structure:
+1. Sensor Settings
+  1.1 Set Sensors Sampling Interval: You'll choose a value between 1 and 10 seconds, which will determine the sampling rate for the sensors.
+  1.2 Set Ultrasonic Alert Threshold: You'll choose a threshold value for the ultrasonic sensor, indicating a boundary (min or max) value. If the sensor value surpasses this threshold, an alert message will trigger. If the LED is in Automatic Mode (see section 4.2), it will turn red when any sensor value exceeds this set boundary.
+  1.3 Set LDR Alert Threshold: You'll choose a threshold value for the LDR sensor, indicating a boundary (min or max) value. When the sensor value crosses this threshold, an alert message will activate. Similar to the Ultrasonic sensor, if the LED is in Automatic Mode (see section 4.2), it will turn red when any sensor value goes beyond this set boundary.
+  1.4 Back: Return to the main menu
+2. Resetting Logger Data: When selected, it will print a message asking for confirmation to delete all data, something like "Are you sure?" Following this, a submenu will appear offering options for YES or NO to confirm the reset for both sensors.
+  2.1 Yes.
+  2.2 No.
+3. System Status: I created a system status section with several options to provide relevant information about the system's functionality and data.
+  3.1 Current Sensor Readings: This option will continuously display sensor readings at the set sampling rate from all sensors. I ensured there's a way to exit this display, by pressing the "x" key. I also included a message to inform users of this exit method.
+  3.2 Current Sensor Settings: This will display the sampling rate and threshold values for all sensors.
+  3.3 Display Logged Data: This option will show the last 10 sensor readings for all sensors.
+  3.4 Back: This choice will allow users to return to the Main menu.
+4. RGB LED Control:
+  4.1 Manual Color Control: This option will allow manual setting of the RGB colors for the LED. I defined the input method as a number beteew 0 and 255. I informed the user about the specific format required.
+  4.2 LED: Toggle Automatic ON/OFF: When Automatic Mode is ON, the LED will display GREEN when all sensor values are within their threshold limits (no alert) and RED when any sensor value exceeds its threshold (indicating an alert). If Automatic Mode is OFF, the LED will use the last saved RGB values.
+  4.3 Back: This option will enable users to return to the Main menu.
+
+![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework5/SetupImg1.jpeg?raw=true)
+![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework5/SetupImg2.jpeg?raw=true)
+![SetupScheme](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework5/SetupScheme.png?raw=true)
+
+https://youtu.be/1lsIuqp7mLA?feature=shared

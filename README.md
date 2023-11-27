@@ -78,7 +78,9 @@ Components used:
 
 -RGB LED
 
--4 ResistorsBreadboard
+-4 Resistors
+
+-Breadboard
 
 -connecting wires (lots of them)
 
@@ -106,3 +108,37 @@ Menu Structure:
 ![SetupScheme](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework5/SetupScheme.png?raw=true)
 
 https://youtu.be/1lsIuqp7mLA?feature=shared
+
+## Homework 6 - 8x8 matrix game
+I created a small game using an 8x8 matrix. In this game, I incorporated three types of elements: a player (blinking slowly), bombs/bullets (blinking rapidly), and walls (no blinking). The goal is to kickstart my matrix project. The main concept involves generating walls across the map (between 50% to 75% coverage) and maneuvering the player to destroy them. I approached it akin to Bomberman.
+
+Components used:
+-Arduino Uno Board
+
+-Joystick
+
+-8x8 LED Matrix
+
+-MAX7219
+
+-1 Resistor
+
+-2 Capacitors
+
+-1 Mini-Breadboard
+
+-1 Mid-Breadboard
+
+- Looots of connecting wires
+
+Things I took care of:
+1. LED Differentiation: I ensured that the player and bombs/bullets blink at distinct rates. Specifically, the player blinks slowly, while bombs/bullets blink rapidly. Additionally, the walls remain unblinking.
+
+2. Control: Smooth control is crucial, so I made the gameplay experience enjoyable and user-friendly.
+
+3. Control: I prevented the initial generation of walls on top of the player when the game begins. I ensured that the player isn't obstructed by walls from the start.
+
+![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework6/SetupImg1.jpeg?raw=true)
+![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework6/SetupImg2.jpeg?raw=true)
+
+https://youtu.be/tqwe8zg4jlE?si=lTHsavzCXjQEaUq0

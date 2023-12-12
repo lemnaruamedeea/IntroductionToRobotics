@@ -142,3 +142,44 @@ Things I took care of:
 ![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework6/SetupImg2.jpeg?raw=true)
 
 https://youtu.be/tqwe8zg4jlE?si=lTHsavzCXjQEaUq0
+
+## Homework 7 - 8x8 matrix game LCD menu
+
+When I start the project, it displays a greeting message briefly. The menu options are:
+
+1. Starting the game, which initiates the first level.
+   
+2. Settings:
+(a) Control LCD brightness, saving the value to EEPROM and loading it on system start.
+(b) Manage Matrix brightness using the 'set Intensity' function from the led-Control library. Display something on the matrix when selected. Save the value to EEPROM and load it on system start.
+(c) About: This section includes details about me, the game's author and my GitHub username (using scrolling text).
+
+3. When the game concludes, it will show a message and wait for a user prompt, wich is a button push, before returning to the main menu.
+
+4.During gameplay, it will display dynamic details, more specific, lives.
+
+5. To wrap up a game, I implemented an end-game functionality. The game ends when all the "walls" are eliminated. Afterward, it will display another message, wait for a user prompt, and return to the main menu.
+
+Components used:
+-Arduino Uno Board
+
+-Joystick
+
+-8x8 LED Matrix
+
+-LCD Display
+
+-MAX7219
+
+-1 Resistor
+
+-2 Capacitors
+
+-1 Mini-Breadboard
+
+-1 Mid-Breadboard
+
+- Looots of connecting wires
+
+![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg1.jpeg?raw=true)
+![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg2.jpeg?raw=true)

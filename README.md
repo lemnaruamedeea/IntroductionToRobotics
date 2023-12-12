@@ -184,4 +184,4 @@ Components used:
 ![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg1.jpeg?raw=true)
 ![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg2.jpeg?raw=true)
 
-https://youtu.be/xv7l-jmYVoo?si=jw6-GkzZUfJRe1N_
+https://youtu.be/TS1xVqFHN4I?si=d14isFyX6EQPvKsz

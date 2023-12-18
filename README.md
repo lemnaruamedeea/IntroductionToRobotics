@@ -13,8 +13,9 @@ https://youtu.be/iNuT3lebwAA?si=6-tmb08IwD-qQzN6
 
 </details>
 
+<details>
+<summary><h2>Homework 2 - Elevator Simulator Wannabe</h2></summary>
 
-## Homework 2 - Elevator Simulator Wannabe
 Creating a control system to replicate the operations of a three-floor elevator using the Arduino platform presented an intriguing challenge. Meeting the specific requirements while making it all come together was a fascinating journey into the world of electronics and programming.
 My design included three LEDs, each representing a floor, with the LED corresponding to the elevator's current position illuminating. An additional LED indicated the elevator's operational state, blinking during motion and remaining steady when stationary.
 Three buttons, resembling call buttons on each floor, triggered the elevator's simulated movement.
@@ -29,7 +30,11 @@ In summary, the design and implementation of this control system for a simulated
 
 https://youtu.be/0VN2qUHWAPw?si=XpcYRdrIy6sqkWz8
 
-## Homework 3 - 7 segment display drawing
+</details>
+
+<details>
+<summary><h2>Homework 3 - 7 segment display drawing</h2></summary>
+
 I used the joystick to control the position of the segment and "draw" on the display. I wanted the movement between segments to feel natural, so they should transition smoothly from the current position to neighboring positions without passing through any "walls."
 The initial position is on the DP. The current position will always blink, regardless of whether the segment is on or off. I use the joystick to move from one position to neighboring ones (as indicated in the table for corresponding movements). A short press of the button will toggle the segment state between ON and OFF. If I long-press the button, it will reset the entire display by turning off all the segments and moving the current position to the decimal point.
 
@@ -51,7 +56,11 @@ Components used:
 
 https://youtube.com/shorts/5fE8dwfEra8
 
-## Homework 4 - Stopwatch timer
+</details>
+
+<details>
+<summary><h2>Homework 4 - Stopwatch timer</h2></summary>
+
 I'm tasked with creating a stopwatch timer using a 4-digit 7-segment display and 3 buttons. The timer should count in 10ths of a second and have a lap-saving feature similar to basic stopwatch functions found on most phones.
 My display begins with "000.0". When I press the Start button, the timer kicks into action.
 While the timer runs, each time I press the lap button, the current timer value should be saved temporarily in memory, up to 4 laps or more if needed. If I press the lap button for the 5th time, it will override the first saved value. If I hit the reset button during timing, nothing changes. However, if I hit pause, the timer halts.
@@ -71,7 +80,11 @@ Components used:
 
 https://youtube.com/shorts/Ss_1BUEqMBo?si=jCl7402cfeI99Ji6
 
-## Homework 5 - ”Smart Environment Monitor and Logger”
+</details>
+
+<details>
+<summary><h2>Homework 5 - ”Smart Environment Monitor and Logger”</h2></summary>
+
 I will create a "Smart Environment Monitor and Logger" with Arduino. I'll use different sensors to collect environmental information, save it into EEPROM memory, and offer visual feedback using an RGB LED. Additionally, I'll enable user interaction through a Serial Menu. My main goal is to integrate sensor data, manage memory, establish Serial Communication, and ultimately create a functional menu system.
 
 Components used:
@@ -114,7 +127,11 @@ Menu Structure:
 
 https://youtu.be/1lsIuqp7mLA?feature=shared
 
-## Homework 6 - 8x8 matrix game
+</details>
+
+<details>
+<summary><h2>Homework 6 - 8x8 matrix game (first checkpoint)</h2></summary>
+
 I created a small game using an 8x8 matrix. In this game, I incorporated three types of elements: a player (blinking slowly), bombs/bullets (blinking rapidly), and walls (no blinking). The goal is to kickstart my matrix project. The main concept involves generating walls across the map (between 50% to 75% coverage) and maneuvering the player to destroy them. I approached it akin to Bomberman.
 
 Components used:
@@ -148,7 +165,10 @@ Things I took care of:
 
 https://youtu.be/tqwe8zg4jlE?si=lTHsavzCXjQEaUq0
 
-## Homework 7 - 8x8 matrix game LCD menu
+</details>
+
+<details>
+<summary><h2>Homework 7 - 8x8 matrix game LCD menu (second checkpoint)</h2></summary>
 
 When I start the project, it displays a greeting message briefly. The menu options are:
 
@@ -190,3 +210,5 @@ Components used:
 ![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg2.jpeg?raw=true)
 
 https://youtu.be/TS1xVqFHN4I?si=d14isFyX6EQPvKsz
+
+</details>

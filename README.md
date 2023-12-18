@@ -125,7 +125,7 @@ Menu Structure:
 ![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework5/SetupImg2.jpeg?raw=true)
 ![SetupScheme](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework5/SetupScheme.png?raw=true)
 
-https://youtu.be/1lsIuqp7mLA?feature=shared
+https://youtube.com/watch?v=1lsIuqp7mLA&feature=shared
 
 </details>
 
@@ -163,7 +163,7 @@ Things I took care of:
 ![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework6/SetupImg1.jpeg?raw=true)
 ![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework6/SetupImg2.jpeg?raw=true)
 
-https://youtu.be/tqwe8zg4jlE?si=lTHsavzCXjQEaUq0
+https://youtube.com/watch?v=tqwe8zg4jlE&si=0KAacsfE4dTdtFOh
 
 </details>
 
@@ -209,6 +209,6 @@ Components used:
 ![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg1.jpeg?raw=true)
 ![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg2.jpeg?raw=true)
 
-https://youtu.be/TS1xVqFHN4I?si=d14isFyX6EQPvKsz
+https://youtube.com/watch?v=TS1xVqFHN4I&si=atVia27YJVrhPmsT
 
 </details>

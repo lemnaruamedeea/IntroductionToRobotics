@@ -2,7 +2,7 @@
 This repository is meant to illustrate my jurney through the "Introduction To Robotics" course taken in my third year at the Faculty of Mathematics and Computer Science, University of Bucharest. In the end, I hope I'll be able to show my progress through my projects and laboratory homeworks, which will include photos, code and documentation.
 
 <details>
-<summary>< strong style="font-size: 16px;">Homework 1 - RGB LED</summary>
+<summary>< strong style="font-size: 16;">Homework 1 - RGB LED</summary>
 
 This task is centered around the manipulation of each channel (Red, Green, and Blue) of an RGB LED through the use of separate potentiometers. Upon completion of this assignment, I have acquired skills in connecting potentiometers to an Arduino and manipulating RGB LEDs based on analog input values.
 

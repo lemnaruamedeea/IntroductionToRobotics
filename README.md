@@ -2,7 +2,7 @@
 This repository is meant to illustrate my jurney through the "Introduction To Robotics" course taken in my third year at the Faculty of Mathematics and Computer Science, University of Bucharest. In the end, I hope I'll be able to show my progress through my projects and laboratory homeworks, which will include photos, code and documentation.
 
 <details>
-<summary><h2>Homework 1 - RGB LED</h2></summary>
+<summary><h2>Homework 1 - RGB LED 🚨</h2></summary>
 
 This task is centered around the manipulation of each channel (Red, Green, and Blue) of an RGB LED through the use of separate potentiometers. Upon completion of this assignment, I have acquired skills in connecting potentiometers to an Arduino and manipulating RGB LEDs based on analog input values.
 
@@ -14,7 +14,7 @@ https://youtu.be/iNuT3lebwAA?si=6-tmb08IwD-qQzN6
 </details>
 
 <details>
-<summary><h2>Homework 2 - Elevator Simulator Wannabe</h2></summary>
+<summary><h2>Homework 2 - Elevator Simulator Wannabe ↕️</h2></summary>
 
 Creating a control system to replicate the operations of a three-floor elevator using the Arduino platform presented an intriguing challenge. Meeting the specific requirements while making it all come together was a fascinating journey into the world of electronics and programming.
 My design included three LEDs, each representing a floor, with the LED corresponding to the elevator's current position illuminating. An additional LED indicated the elevator's operational state, blinking during motion and remaining steady when stationary.
@@ -33,7 +33,7 @@ https://youtu.be/0VN2qUHWAPw?si=XpcYRdrIy6sqkWz8
 </details>
 
 <details>
-<summary><h2>Homework 3 - 7 segment display drawing</h2></summary>
+<summary><h2>Homework 3 - 7 segment display drawing 🎮 ✏️</h2></summary> 
 
 I used the joystick to control the position of the segment and "draw" on the display. I wanted the movement between segments to feel natural, so they should transition smoothly from the current position to neighboring positions without passing through any "walls."
 The initial position is on the DP. The current position will always blink, regardless of whether the segment is on or off. I use the joystick to move from one position to neighboring ones (as indicated in the table for corresponding movements). A short press of the button will toggle the segment state between ON and OFF. If I long-press the button, it will reset the entire display by turning off all the segments and moving the current position to the decimal point.
@@ -59,7 +59,7 @@ https://youtube.com/shorts/5fE8dwfEra8
 </details>
 
 <details>
-<summary><h2>Homework 4 - Stopwatch timer</h2></summary>
+<summary><h2>Homework 4 - Stopwatch timer ⏱️</h2></summary>
 
 I'm tasked with creating a stopwatch timer using a 4-digit 7-segment display and 3 buttons. The timer should count in 10ths of a second and have a lap-saving feature similar to basic stopwatch functions found on most phones.
 My display begins with "000.0". When I press the Start button, the timer kicks into action.
@@ -83,7 +83,7 @@ https://youtube.com/shorts/Ss_1BUEqMBo?si=jCl7402cfeI99Ji6
 </details>
 
 <details>
-<summary><h2>Homework 5 - ”Smart Environment Monitor and Logger”</h2></summary>
+<summary><h2>Homework 5 - ”Smart Environment Monitor and Logger” 🔦💥</h2></summary>
 
 I will create a "Smart Environment Monitor and Logger" with Arduino. I'll use different sensors to collect environmental information, save it into EEPROM memory, and offer visual feedback using an RGB LED. Additionally, I'll enable user interaction through a Serial Menu. My main goal is to integrate sensor data, manage memory, establish Serial Communication, and ultimately create a functional menu system.
 
@@ -130,7 +130,7 @@ https://youtu.be/1lsIuqp7mLA?feature=shared
 </details>
 
 <details>
-<summary><h2>Homework 6 - 8x8 matrix game (first checkpoint)</h2></summary>
+<summary><h2>Homework 6 - 8x8 matrix game (first checkpoint) 🎮</h2></summary>
 
 I created a small game using an 8x8 matrix. In this game, I incorporated three types of elements: a player (blinking slowly), bombs/bullets (blinking rapidly), and walls (no blinking). The goal is to kickstart my matrix project. The main concept involves generating walls across the map (between 50% to 75% coverage) and maneuvering the player to destroy them. I approached it akin to Bomberman.
 
@@ -168,7 +168,7 @@ https://youtu.be/tqwe8zg4jlE?si=lTHsavzCXjQEaUq0
 </details>
 
 <details>
-<summary><h2>Homework 7 - 8x8 matrix game LCD menu (second checkpoint)</h2></summary>
+<summary><h2>Homework 7 - 8x8 matrix game LCD menu (second checkpoint) 🎮</h2></summary>
 
 When I start the project, it displays a greeting message briefly. The menu options are:
 

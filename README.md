@@ -209,7 +209,7 @@ Components used:
 ![SetupImg1](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg1.jpeg?raw=true)
 ![SetupImg2](https://github.com/lemnaruamedeea/IntroductionToRobotics/blob/main/Homework7/SetupImg2.jpeg?raw=true)
 
-https://youtube.com/watch?v=TS1xVqFHN4I&si=atVia27YJVrhPmsT
+https://youtube.com/watch?v=JSQqoaYUY3c&si=Dm78wpKnpNeyGbez
 
 </details>
 
